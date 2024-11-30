@@ -11,6 +11,19 @@
     <link rel="stylesheet" href="/assets/css/pikaday.min.css">
     <link rel="stylesheet" href="/assets/css/project-card.css">
     <link rel="stylesheet" href="/assets/css/Projects-Grid-Horizontal-images.css">
+    <style>
+        .progject-card{
+            padding-top: 25px;
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 20px;
+            box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+            color: whitesmoke;
+            min-height: 200px;
+            @media only screen and (max-width: 1000px){
+                padding: 15px 10px;
+            }
+        }
+    </style>
 </head>
 
 <body>
@@ -19,7 +32,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link active" href="/index.html">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="/info.html">Info</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/info.html">About me</a></li>
                     <li class="nav-item"><a class="nav-link" href="/projects.html">Projects</a></li>
                     <li class="nav-item"><a class="nav-link" href="/contact.html">Contact</a></li>
                 </ul>
@@ -41,9 +54,15 @@
             </div>
             <div class="container">
                 <div class="row g-0">
+<<<<<<< Updated upstream
                     <div class="col-md-6 col-lg-4 item zoom-on-hover"><a href="#"><img class="img-fluid image" src="/assets/img/nature/image5.jpg"></a></div>
                     <div class="col-md-6 col-lg-4 item zoom-on-hover"><a href="#"><img class="img-fluid image" src="/assets/img/nature/image2.jpg"></a></div>
                     <div class="col-md-6 col-lg-4 item zoom-on-hover"><a href="#"><img class="img-fluid image" src="/assets/img/tech/image4.jpg"></a></div>
+=======
+                    <div class="col-md-6 col-lg-4 item zoom-on-hover"><img class="img-fluid image" src="/assets/img/hobby/basket.jpg"></div>
+                    <div class="col-md-6 col-lg-4 item zoom-on-hover"><img class="img-fluid image" src="/assets/img/hobby/photography.jpg"></div>
+                    <div class="col-md-6 col-lg-4 item zoom-on-hover"><img class="img-fluid image" src="/assets/img/hobby/f1.jpg"></div>
+>>>>>>> Stashed changes
                 </div>
             </div>
         </section>
@@ -59,8 +78,7 @@
                 </div>
                 <div class="row gy-4 row-cols-1 row-cols-md-2">
                     <div class="col">
-                        <div class="d-flex flex-column flex-lg-row">
-                            <div class="w-100"><img class="rounded img-fluid d-block w-100 fit-cover" style="height: 200px; max-width: 215px; min-width: 215px;" src="https://cdn.bootstrapstudio.io/placeholders/1400x800.png" width="231" height="200"></div>
+                        <div class="d-flex flex-column flex-lg-row progject-card">
                             <div class="py-4 py-lg-0 px-lg-4">
                                 <h4>Ricordella</h4>
                                 <p>Small project for creating, updating, deleting some notes.<br>A user can be added with username and password; it's available a demo user for trying the web-app.<br>Developed with html, css, javascript and php</p>
@@ -68,8 +86,7 @@
                         </div>
                     </div>
                     <div class="col">
-                        <div class="d-flex flex-column flex-lg-row">
-                            <div class="w-100"><img class="rounded img-fluid d-block w-100 fit-cover" style="height: 200px; max-width: 215px; min-width: 215px;" src="https://cdn.bootstrapstudio.io/placeholders/1400x800.png" width="231" height="200"></div>
+                        <div class="d-flex flex-column flex-lg-row progject-card">
                             <div class="py-4 py-lg-0 px-lg-4">
                                 <h4>Music PHP project</h4>
                                 <p>Php project that allow user to add some songs and set the genre. After that ther's an api to youtube that convert the title of the song to a link referencing the song desidered.<br>User can filter the songs by author and genre</p>
@@ -77,8 +94,7 @@
                         </div>
                     </div>
                     <div class="col">
-                        <div class="d-flex flex-column flex-lg-row">
-                            <div class="w-100"><img class="rounded img-fluid d-block w-100 fit-cover" style="height: 200px; max-width: 215px; min-width: 215px;" src="https://cdn.bootstrapstudio.io/placeholders/1400x800.png" width="215" height="200"></div>
+                        <div class="d-flex flex-column flex-lg-row progject-card">
                             <div class="py-4 py-lg-0 px-lg-4">
                                 <h4>La Tana dei Goblin</h4>
                                 <p>Java-based app, includes adding a user for searching on a 'db' the games published by the authors.<br>Authors can also be signed-in; after that it's possible to create some board-games and publish it on the platform.</p>
@@ -86,8 +102,7 @@
                         </div>
                     </div>
                     <div class="col">
-                        <div class="d-flex flex-column flex-lg-row">
-                            <div class="w-100"><img class="rounded img-fluid d-block w-100 fit-cover" style="height: 200px; max-width: 215px; min-width: 215px;" src="https://cdn.bootstrapstudio.io/placeholders/1400x800.png" width="215" height="200"></div>
+                        <div class="d-flex flex-column flex-lg-row progject-card">
                             <div class="py-4 py-lg-0 px-lg-4">
                                 <h4>Snake</h4>
                                 <p>Html, css, javascitp web-app that displays&nbsp; the snake game.<br>It offer the possibility to play even on smartphones. It autosave the high score made by the user on the browser memory</p>
@@ -101,7 +116,7 @@
             </div>
         </section>
     </section>
-    <footer class="page-footer py-3 border-top" style="padding-top: 0px;margin-top: -17px;margin-bottom: -15px;">
+    <footer class="page-footer py-3 border-top" style="padding-top: 0px;margin-bottom: -15px;">
         <div class="container my-4" style="margin-bottom: -2px;padding-bottom: 0px;">
             <div class="links"><a href="/info.html">About me</a><a href="/contact.html">Contact me</a><a href="/projects.html">Projects</a></div>
         </div>
