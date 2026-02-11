@@ -1,6 +1,6 @@
 # PaulXV.github.io
 
-my personal portfolio - visit [the site](https://paulxv.github.io/) for the result.
+My personal portfolio - visit [the site](https://paulxv.github.io/) for the result.
 
 ## See also: 
 - Web Apps [here](https://github.com/stars/PaulXV/lists/web-dev)!
